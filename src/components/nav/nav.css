@@ -1,0 +1,35 @@
+.nav {
+    background: rgba(0, 0, 0, 0.3);
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    align-items: center;
+    padding: 0 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navEl {
+    background: transparent;
+    display: flex;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a:hover {
+    background-color: var(--color-blue);
+    border-radius: 50%;
+    color: var(--color-white);
+    border-color: transparent;
+}
+
