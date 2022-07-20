@@ -1,0 +1,117 @@
+section {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+}
+.project__title {
+    margin-top: 1rem;
+}
+
+.portfolio__title {
+    font-size: 45px;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.portfolio__container {
+    display: inline-block;
+    margin-top: 5rem;
+}
+
+.project__description {
+    margin-bottom: 0.5rem;
+}
+
+.project__icon {
+    margin-top: -0.5rem;
+}
+
+.photo {
+    width: 30rem;
+    height: 300px;
+    float: left;
+}
+
+.portfolio__content{
+    background-color: var(--color-primary-variant);
+    height: 300px;
+    width: 30rem;
+    overflow: hidden;
+}
+
+.header__icon {
+    display:inline-block ;
+}
+
+/************ media queries (medium devices) ************/
+@media screen and (max-width: 1024px) {
+    section {
+        width: 30rem;
+        margin: auto;
+    }
+
+    .portfolio__box {
+        width: 30rem;
+        justify-content: center;
+    }
+
+    .portfolio__title {
+        margin-top: 5rem;
+        font-size: 40px;
+        justify-content: center;
+    }
+
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .portfolio__content {
+        width: 100%;
+    }
+}
+
+/************ media queries (medium devices) ************/
+@media screen and (max-width: 600px) {
+    section {
+        width: 100%;
+        justify-content: center;
+      }
+
+    .portfolio__title {
+        margin-top: 5rem;
+        width: 100%;
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    .portfolio__container {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 3rem;
+        gap: 0.6rem;
+    }
+
+    .photo {
+        /* width: 26rem; */
+        width: 90%;
+        height: 200px;
+        float: left;
+    }
+
+    .portfolio__content {
+        width: 90%;
+    }
+}
