@@ -6,12 +6,13 @@ import bootstrap from "../../assets/icon/i-bootstrap.png";
 import html from "../../assets/icon/i-html.png";
 import express from "../../assets/icon/i-Express.png";
 import jquery from "../../assets/icon/i-jQuery.png";
-import mysql from "../../assets/icon/i-MySQL.png";
-import handlebars from "../../assets/icon/i-handlebars.png";
+import mysql from "../../assets/icon/i-MySQL1.png";
+import handlebars from "../../assets/icon/i-handlebars2.png";
 import mongodb from "../../assets/icon/i-MongoDB.png";
 import mui from "../../assets/icon/i-mui.png";
 import node from "../../assets/icon/i-NodeJS.png";
-import github from "../../assets/icon/i-GitHub.png";
+// import github from "../../assets/icon/i-GitHub.png";
+import github from "../../assets/icon/i-GitHub1.png";
 
 import "./header.css";
 

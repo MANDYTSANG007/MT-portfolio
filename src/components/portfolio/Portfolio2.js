@@ -51,13 +51,15 @@ const Portfolio = () => {
                 data.map(({ id, image, title, github, demo }) => {
                     return (
                         <div class="portfolio__container">
-                            <div data-aos="fade-left" key={id}>
+                            <div data-aos="fade-left" key={id} className="portfolio__box">
                                 <img className="photo" src={image} alt={title} />
-                                <div className="portfolio__content"><b>{title}</b>
-                                    <br></br><br></br>
+                                <div className="portfolio__content">
+                                    <h3 className="project__title">{title}</h3>
+                                    <div>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Ad eum dolorum architecto obcaecati enim dicta praesentium,
                                     quam nobis! Neque ad aliquam facilis numquam. Veritatis, si
+                                    </div>
                                     <br></br>
                                     <div>
                                         <a href={github} className="btn">GitHub</a>
@@ -72,7 +74,7 @@ const Portfolio = () => {
                         </div>
                     )
                 })
-            }s
+            }
         </section>
     )
 }
