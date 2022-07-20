@@ -4,7 +4,7 @@ img {
     -webkit-object-fit: cover;
     -moz-object-fit: cover;
     -o-object-fit: cover;
-    height: 100vh;
+    height: 100%;
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
 
 .mandy {
     position: fixed;
-    top: 9%;
+    top: 12%;
     left: 5%;
     width: 90%;
     background-repeat: no-repeat;
@@ -32,9 +32,9 @@ h1 {
     text-shadow: 2px 2px black;
 }
 
-/* completed-do not modify */
 .header__content {
     position: absolute;
+    min-height: 100vh;
     top: 50%;
     width: 100%;
     text-align: center;
@@ -49,10 +49,11 @@ h1 {
 .grid__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
     justify-content: space-evenly;
     gap: 1rem;
     padding: 10px 30%;
-    text-align: c;
+    height: 60vh;
 }
 
 .header__icon {
@@ -67,14 +68,54 @@ hr.dividers {
 
 /************ media queries (medium devices) ************/
 @media screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+    
     .mandy {
         width: var(--container-width-md);
+        position: relative;
+        /* width: 48rem; */
+        width: 100%;
+        left: 0;
+    }
+    
+    .grid__container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto 1fr;
+        gap: 0;
+        padding: 0 5rem;
+        height: auto;
     }
 }
 
 /************ media queries (small devices) ************/
 @media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
     .mandy {
         width: var(--container-width-sm);
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    img {
+        height: 70vh;
+    }
+
+    .name {
+        font-size: 5vh;
+    }
+
+    .grid__container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto 1fr;
+        gap: 0;
+        padding: 0 0;
+        row-gap: 0;
+        position: relative;
     }
 }

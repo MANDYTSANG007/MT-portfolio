@@ -3,9 +3,8 @@ import './App.css';
 import Nav from "./components/nav/Nav";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import Home from "./components/home/Home";
 import About from "./components/about/About";
-import Portfolio from "./components/portfolio/Portfolio";
+import Portfolio2 from "./components/portfolio/Portfolio2";
 import Contact from "./components/contact/Contact";
 
 import { Route, Routes } from "react-router-dom";
@@ -18,11 +17,11 @@ function App() {
         <Routes>
             <Route path="/" element={<Header />} />
             <Route path="/About" element={<About />} />
-            <Route path="/Portfolio" element={<Portfolio />} />
+            <Route path="/Portfolio" element={<Portfolio2 />} />
             <Route path="/Contact" element={<Contact />} />
         </Routes>
-      </div>
       <Footer />
+      </div>
     </>
   );
 }

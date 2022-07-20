@@ -1,0 +1,56 @@
+/*use span method and table to align image and descritpion*/
+
+section {
+    width: 90%; 
+    /* height: 100%; */
+    /* margin-top: 6rem; */
+    /* text-align: center; */
+    /* display: flex; */
+    display: table;
+    flex-direction: column;
+    margin: 6rem auto;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.meta {
+    position: relative;
+    z-index: 0;
+    height: 40vh;
+    margin-bottom: 10%;
+}
+
+.photo {
+    /* position: absolute; */
+    display: table-cell;
+    width: 50vh;
+    height: 40vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform .2s;
+    float: left;
+
+}
+
+.description {
+    float: right;
+    /* vertical-align: top; */
+    width: 50vh;
+    height: 40vh;
+    /* margin-top: 0; */
+    padding: 0rem;
+    background: red;
+    /* position: relative; */
+    z-index: 1;
+}
+span {
+    display: table-cell;
+    width: 20vh;
+    background-color: red;
+    height: 40vh;
+}

@@ -10,10 +10,6 @@
     text-decoration: none;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 html, body {
     height: 100%;
 }
@@ -24,13 +20,13 @@ html, body {
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
-    --color-blue: rgb(62, 8, 2);
+    --color-blue: rgb(62, 8, 249);
     --color-light: #rgba(255, 255, 255, 0.6);
 
     --transition: all 400ms ease;
 
     --container-width-lg: 75%;
-    --container-width-md: 86%;
+    --container-width-md: 90%;
     --container-width-sm: 90%;
 }
 
@@ -47,16 +43,46 @@ body {
 
 .container {
     width: 100%;
+    min-height: 100vh; 
     text-align: center;
+    align-content: center;
     flex: 1 0 auto;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
 
 /************ media queries (medium devices) ************/
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }
+   
 }
 
 /************ media queries (small devices) ************/

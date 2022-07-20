@@ -18,9 +18,9 @@ import "./header.css";
 const Header = () => {
     return (
         <header>
-            <div className="container header__container">
+            <div className="container">
                 <div className="mandy">
-                    <img src={mandy} alt="mandy horse riding" />
+                    <img src={mandy} alt="mandy was doing horse riding" />
                 </div>
                 <div className="header__content">
                     <h1 className="name">Mandy Tsang</h1>

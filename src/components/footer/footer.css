@@ -1,10 +1,17 @@
 footer {
-    background: rgba(0, 0, 0, 0.9);
-    padding: 1rem 0;
+    position: relative;
     text-align: center;
     font-size: 1rem;
-    margin-top: 100%;
     flex-shrink: 0;
+}
+
+.footer__main {
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    margin-top: 30%;
+    background: rgba(0, 0, 0, 0.9);
+
 }
 
 .footer__logo {
@@ -39,6 +46,27 @@ footer {
 }
 
 .footer__copyright {
-    margin-bottom: 0;
-    color: white
+    color: white;
+}
+
+/************ media queries (medium devices) ************/
+@media screen and (max-width: 1024px) {
+    .footer__copyright {
+        margin-left: 0;
+    }
+}
+
+/************ media queries (small devices) ************/
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    footer {
+        position: relative;
+        width: 100%;
+        padding: 0 0;
+        bottom: 0;
+        margin-top: 40rem;
+    }
 }
