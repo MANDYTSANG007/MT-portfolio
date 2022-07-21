@@ -1,3 +1,18 @@
+header {
+    margin: auto;
+    flex: 1 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+}
+
+/* img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+} */
+
 img {
     width: 100%;
     object-fit: cover;
@@ -17,8 +32,7 @@ h1 {
 .mandy {
     position: fixed;
     top: 12%;
-    left: 5%;
-    width: 90%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -27,23 +41,41 @@ h1 {
     z-index: -1;
 }
 
-.name {
-    height: 50vh;
-    text-shadow: 2px 2px black;
+.content {
+    margin: auto;
+    /* flex: 1 0 auto; */
+    /* flex: 1; */
+    /* width: 100%;
+    align-content: center;
+    text-align: center; */
 }
 
 .header__content {
     position: absolute;
     min-height: 100vh;
     top: 50%;
-    width: 100%;
     text-align: center;
+    /* width: 60%; */
+    /* left: 50%; */
+    /* align-content: center; */
+    /* text-align: center; */
     font-size: 18px;
 }
 
-.header__skills {
+.name {
+    width: 100%;
+    height: 50vh;
+    text-shadow: 2px 2px black;
+}
+
+.header__message {
     background: rgba(0, 0, 0, 0.8);
     text-align: center;
+}
+
+.message {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .grid__container {

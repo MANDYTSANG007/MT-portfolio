@@ -5,7 +5,7 @@ import {AiOutlineContacts} from "react-icons/ai";
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="footer">
             <div className="footer__main">
             <a href="/" className="footer__logo">Mandy Tsang</a>
             <div className="footer__socials">

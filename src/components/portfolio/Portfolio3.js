@@ -71,12 +71,12 @@ const Portfolio = () => {
         Aos.init({ duration: 2000 });
     }, [])
     return (
-        <section>
+        <div className="section">
             <div className="portfolio__title"> Portfolio </div>
             {
                 data.map(({ id, image, title, description, github, demo, tools }) => {
                     return (
-                        <div class="portfolio__container">
+                        <div className="project__container">
                             <div data-aos="fade-left" key={id} className="portfolio__box">
                                 <img className="photo" src={image} alt={title} />
                                 <div className="portfolio__content">
@@ -87,10 +87,10 @@ const Portfolio = () => {
                                         <a href={demo} className="btn btn-primary">Demo</a>
                                     </div>
                                     <div className="project__icon">
-                                    <img className="header__icon" src={tools[0]} alt="icon"></img>
-                                    <img className="header__icon" src={tools[1]} alt="icon"></img>
-                                    <img className="header__icon" src={tools[2]} alt="icon"></img>
-                                    <img className="header__icon" src={tools[3]} alt="icon"></img>
+                                        <img className="header__icon" src={tools[0]} alt="icon"></img>
+                                        <img className="header__icon" src={tools[1]} alt="icon"></img>
+                                        <img className="header__icon" src={tools[2]} alt="icon"></img>
+                                        <img className="header__icon" src={tools[3]} alt="icon"></img>
                                     </div>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@ const Portfolio = () => {
                     )
                 })
             }
-        </section>
+        </div>
     )
 }
 
