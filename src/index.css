@@ -34,14 +34,10 @@ body {
     font-family: "Old Standard TT", "serif", "sans-serif";
     background: var(--color-bg);
     color: var(--color-white);
-    /* line-height: 1.7; */
     background-image: url(../src/assets/bg-texture-tri.png);
-    /* min-height: calc(100vh - 70px); */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .container {
@@ -49,15 +45,7 @@ body {
     height: 100%;
     width: 100%;
     text-align: center; 
-    /* align-content: center; */
-    /* flex: 1 0 auto; */
 }
-
-/* img {
-    display: block;
-    max-width: 100%;
-    object-fit: cover;
-} */
 
 .btn {
     width: max-content;
