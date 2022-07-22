@@ -15,10 +15,10 @@ const Contact = () => {
     };
 
     return (
-        <div>
-            <h2 className="contact__title"> Get in Touch</h2>
+        <div className="contact__section">
+            <h1 className="contact__title"> Get in Touch</h1>
             <h3> Contact Me </h3>
-            <div className="container contact__container">
+            <div className="contact__container">
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="name" placeholder="Your Name" required />
                     <input type="email" name="email" placeholder="Your Email" required />

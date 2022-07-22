@@ -44,13 +44,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* position: relative; */
 }
 
 .container {
-    /* position: relative; */
     display: flex;
-    /* height: 100%; */
     height: calc(100% - 60px);
     width: 100%;
     text-align: center; 

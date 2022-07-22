@@ -1,4 +1,6 @@
 import React from "react";
+import "./header.css";
+
 import mandy from "../../assets/utahHorseRiding.jpg";
 import react from "../../assets/icon/i-react.png";
 import css from "../../assets/icon/i-css.png";
@@ -13,8 +15,6 @@ import js from "../../assets/icon/i-js1.png";
 import node from "../../assets/icon/i-nodejs8.png";
 import github from "../../assets/icon/i-GitHub1.png";
 
-import "./header.css";
-
 const Header = () => {
     return (
         <header className="header">
@@ -26,27 +26,23 @@ const Header = () => {
                 <div className="header__message">
                     <br></br>
                     <div className="message">
-                        <h3 className="message__title"> Hi! </h3>
+                        <h3 className="message__title"> Greetings! </h3>
                         <h4>Hello and welcome to my website! I hope you'll take some time to look around and
                             enjoy the projects that I've been working on. Thanks for stopping by.
                         </h4>
-                        <br></br>
                     </div>
 
                     <hr className="dividers"></hr>
-                    {/* <br></br> */}
 
                     <div className="message">
                         <h3 className="message__title">About Me</h3>
-                        <h4> I love to build things with my computer. For the last several years, I've had the privilege
-                            of workign at the highly-regulated financial industry. My main focus these days is
+                        <h4> I love to build things with my computer. For the past few years, I've had the privilege
+                            of working at the highly-regulated financial industry. My main focus these days is
                             building accessible and user-friendly products.
                         </h4>
-                        {/* <br></br> */}
                     </div>
 
                     <hr className="dividers"></hr>
-                    {/* <br></br> */}
 
                     <div className="message">
                         <h3 className="message__title">Technologies</h3>

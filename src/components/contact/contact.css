@@ -1,25 +1,28 @@
+.contact__section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+    padding-bottom: 10rem;
+}
+
 .contact__title {
     color: white;
     margin-top: 5rem;
 }
 
-h2 {
-    color: white;
-}
-
-.container.contact__container {
-    width: 80%;
-    display: grid;
-    grid-template-columns: 70% 80%;
-    gap: 12%;
-    margin-left: 22.5%;
+.contact__container {
+    width: 50%;
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 input, textarea {

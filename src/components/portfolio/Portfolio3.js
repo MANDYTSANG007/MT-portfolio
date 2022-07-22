@@ -72,7 +72,7 @@ const Portfolio = () => {
     }, [])
     return (
         <div className="section">
-            <div className="portfolio__title"> Portfolio </div>
+            <h1 className="portfolio__title"> Portfolio </h1>
             {
                 data.map(({ id, image, title, description, github, demo, tools }) => {
                     return (

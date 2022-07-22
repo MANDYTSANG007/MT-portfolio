@@ -17,7 +17,6 @@ img {
     -moz-object-fit: cover;
     -o-object-fit: cover;
     height: 100vh;
-    /* position: relative; */
 }
 
 .mandy {
@@ -37,7 +36,6 @@ img {
     z-index: 1;
     position: absolute; /* this line over-write .header properties*/
     width: 100%;
-    /* top: 10px; */
     margin-top: -30%;
 }
 
@@ -50,6 +48,7 @@ img {
     padding: 1%;
     padding-right: 20%;
     padding-left: 20%;
+    line-height: 1.5rem;
 }
 
 .message__title {
@@ -63,7 +62,6 @@ img {
     justify-content: space-evenly;
     gap: 1rem;
     padding: 10px 30%;
-    height: 60vh;
 }
 
 .header__icon {
@@ -85,7 +83,6 @@ hr.dividers {
     .mandy {
         width: var(--container-width-md);
         position: relative;
-        /* width: 48rem; */
         width: 100%;
         left: 0;
     }
