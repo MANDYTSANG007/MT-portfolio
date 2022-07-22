@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mt-portfolio/static/css/main.c3481642.css",
+    "main.js": "/mt-portfolio/static/js/main.a40f7913.js",
+    "static/media/perfect-cup.png": "/mt-portfolio/static/media/perfect-cup.668baaabb6470d2f0abd.png",
+    "static/media/utahHorseRiding.jpg": "/mt-portfolio/static/media/utahHorseRiding.db816e9ab58a3ed7488f.jpg",
+    "static/media/megame.png": "/mt-portfolio/static/media/megame.508d3ed4fab63d709450.png",
+    "static/media/techTalk.png": "/mt-portfolio/static/media/techTalk.715479c32b68804bd8bc.png",
+    "static/media/i-mongodb1.png": "/mt-portfolio/static/media/i-mongodb1.a92cc370ddbacfa03d75.png",
+    "static/media/work-day-scheduler.png": "/mt-portfolio/static/media/work-day-scheduler.bb9205c63bad49e7ae8d.png",
+    "static/media/i-sequelize.png": "/mt-portfolio/static/media/i-sequelize.e913927a9f0778d051f5.png",
+    "static/media/i-moment.png": "/mt-portfolio/static/media/i-moment.3da76362d744fc2fdbdc.png",
+    "static/media/i-jQuery.png": "/mt-portfolio/static/media/i-jQuery.97e9a8d2fa351c2c3c81.png",
+    "static/media/i-react.png": "/mt-portfolio/static/media/i-react.c2861c4dff64d52adf93.png",
+    "static/media/i-bootstrap1.png": "/mt-portfolio/static/media/i-bootstrap1.8b4ec0f619387984aea7.png",
+    "static/media/i-css.png": "/mt-portfolio/static/media/i-css.9d56f9438ebb9ff1940b.png",
+    "static/media/i-html.png": "/mt-portfolio/static/media/i-html.c77fed674c34630bf6ef.png",
+    "static/media/i-mysql2.png": "/mt-portfolio/static/media/i-mysql2.4676ad983d6bd3e9fac9.png",
+    "static/media/i-js1.png": "/mt-portfolio/static/media/i-js1.266bd9fb2663dcc057b4.png",
+    "index.html": "/mt-portfolio/index.html",
+    "main.c3481642.css.map": "/mt-portfolio/static/css/main.c3481642.css.map",
+    "main.a40f7913.js.map": "/mt-portfolio/static/js/main.a40f7913.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3481642.css",
+    "static/js/main.a40f7913.js"
+  ]
+}
