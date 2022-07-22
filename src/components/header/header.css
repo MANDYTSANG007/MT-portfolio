@@ -76,30 +76,46 @@ hr.dividers {
 
 /************ media queries (medium devices) ************/
 @media screen and (max-width: 1024px) {
-    .container {
-        width: 100%;
+    .header {
+        padding-bottom: 8rem;
+        width: 125%;
     }
-    
+
     .mandy {
-        width: var(--container-width-md);
         position: relative;
         width: 100%;
         left: 0;
     }
+
+    img {
+        height: 120vh;
+    }
+
+    .name {
+        font-size: 62px;
+        margin-top: -120%;
+    }
+
+    .message {
+        margin-top: 0.7rem;
+        margin-bottom: 0.5rem;
+        padding: 2%;
+        padding-right: 10%;
+        padding-left: 10%;
+        line-height: 1.5rem;
+    }
     
-    .grid__container {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto auto 1fr;
-        gap: 0;
-        padding: 0 5rem;
-        height: auto;
+    .header__icon {
+        height: 50px;
+        width: 50px;
+        margin: 30px;
     }
 }
 
 /************ media queries (small devices) ************/
 @media screen and (max-width: 600px) {
     .header {
-        padding-bottom: 5rem;
+        padding-bottom: 10rem;
         width: 20%;
     }
 
@@ -122,10 +138,13 @@ hr.dividers {
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
     }
-    .grid__container {
-        display: none;
+
+    .grid__container { 
+        display: none; 
     }
+
     .header__icon {
         display: none;
     }
+
 }
