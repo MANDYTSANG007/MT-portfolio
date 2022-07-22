@@ -98,31 +98,34 @@ hr.dividers {
 
 /************ media queries (small devices) ************/
 @media screen and (max-width: 600px) {
-    .container {
-        width: 100%;
+    .header {
+        padding-bottom: 5rem;
+        width: 20%;
     }
 
     .mandy {
-        width: var(--container-width-sm);
         position: relative;
         width: 100%;
         left: 0;
     }
 
     img {
-        height: 70vh;
+        height: 50vh;
     }
 
     .name {
-        font-size: 5vh;
+        font-size: 30px;
+        margin-top: -50%;
     }
 
+    .message {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
     .grid__container {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto auto 1fr;
-        gap: 0;
-        padding: 0 0;
-        row-gap: 0;
-        position: relative;
+        display: none;
+    }
+    .header__icon {
+        display: none;
     }
 }

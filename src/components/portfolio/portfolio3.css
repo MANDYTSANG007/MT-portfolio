@@ -55,10 +55,10 @@
 
 /************ media queries (medium devices) ************/
 @media screen and (max-width: 1024px) {
-    /* section {
+    section {
         width: 30rem;
-    } */
-/* 
+    } 
+
     .portfolio__box {
         width: 30rem;
         justify-content: center;
@@ -77,17 +77,24 @@
 
     .portfolio__content {
         width: 100%;
-    } */
+    }
+
 }
 
-/************ media queries (medium devices) ************/
+/************ media queries (small devices) ************/
 @media screen and (max-width: 600px) {
-    /* section {
-        width: 100%;
+    section {
+        position: relative;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-      } */
+        align-items: center; 
+        height: 100%;
+        padding-bottom: 10rem;
+    } 
 
-    /* .portfolio__title {
+    .portfolio__title {
         margin-top: 5rem;
         width: 100%;
         font-size: 30px;
@@ -109,5 +116,11 @@
 
     .portfolio__content {
         width: 90%;
-    } */
+    } 
+    .project__container {
+        height: 100%;
+    }
+    .header__icon {
+        width: 10%;
+    }
 }
