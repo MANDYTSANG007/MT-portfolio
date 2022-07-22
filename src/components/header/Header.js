@@ -40,14 +40,14 @@ const Header = () => {
                             a lifelong learner, reader, toastmaster, and Lego fan. 
                             <br></br>
                             <br></br>
-                            After graduated from UCLA, I've had the privilege of working at the highly-regulated 
-                            financial industry. In 2020, I was invited to attend CES 2020 in Las Vegas where I was
-                            introduced to many new innovative, thought-provoking technologies. 
+                            After graduated from UCLA with a bachelor's degree, I've had the privilege of working at 
+                            the highly-regulated financial industry. In 2020, I was invited to attend CES 2020 in Las Vegas 
+                            where I was introduced to many new innovative, thought-provoking technologies. 
                             <br></br>
                             <br></br>
                             Recently, I have been furthering my education in application development at UC Berkeley.
                             My main focus these days is building accessible and user-friendly products. Check out some
-                            of my recent works at the portfolio page and feel free to reach out.
+                            of my recent works at my portfolio page and feel free to reach out.
                         </h4>
                     </div>
 

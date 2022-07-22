@@ -62,14 +62,19 @@ input, textarea {
 /************ media queries (small devices) ************/
 @media screen and (max-width: 600px) {
     .contact__section {
-        padding-bottom: 5rem;
+        position: relative;
+        height: 100vh;
     }
 
+    .contact__title {
+        font-size: 5vh;
+    }
+    
     .contact__container {
         width: 80%;
     }
 
     form {
-        margin-top: 20%;
+        margin-top: 5%;
     }
 }

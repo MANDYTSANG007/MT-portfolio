@@ -44,9 +44,6 @@ img {
 .header__message {
     background: rgba(0, 0, 0, 0.8);
     width: 100%;
-    /* text-align: center; */
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 
 .message {
@@ -55,10 +52,6 @@ img {
     padding-left: 20%;
     padding-right: 20%;
     line-height: 1.5rem;
-    /* width: 60%; */
-    /* margin-left: 20%; */
-    /* left: 50%; */
-    /* text-align: center; */
 }
 
 .message__title {
@@ -87,34 +80,39 @@ hr.dividers {
 /************ media queries (medium devices) ************/
 @media screen and (max-width: 1024px) {
     .header {
-        padding-bottom: 8rem;
-        width: 125%;
+        margin-left: -25%;
+        margin-right: -25%;
     }
 
     .mandy {
-        position: relative;
         width: 100%;
-        left: 0;
-    }
+    } 
 
     img {
-        height: 120vh;
+        height: 100vh;
+        width: 100%;
     }
 
     .name {
         font-size: 62px;
-        margin-top: -120%;
+        margin-top: -70%;
+        margin-left: 10%;
     }
 
     .message {
-        margin-top: 0.7rem;
-        margin-bottom: 0.5rem;
         padding: 2%;
-        padding-right: 10%;
-        padding-left: 10%;
         line-height: 1.5rem;
+        font-size: 23px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        padding-left: 20%;
+        padding-right: 20%;
+        line-height: 2rem;
     }
-    
+    .grid__container{
+        margin-left: 15%;
+    }
     .header__icon {
         height: 50px;
         width: 50px;
@@ -126,27 +124,33 @@ hr.dividers {
 @media screen and (max-width: 600px) {
     .header {
         padding-bottom: 10rem;
-        width: 20%;
-    }
-
-    .mandy {
-        position: relative;
-        width: 100%;
-        left: 0;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     img {
-        height: 50vh;
+        height: 60vh;
+        width: 100%;
     }
 
     .name {
-        font-size: 30px;
-        margin-top: -50%;
+        font-size: 50px;
+        margin-top: -60%;
+        margin-left: 1%;
+    }
+
+    .message__title {
+        margin-bottom: 1rem;
     }
 
     .message {
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        font-size: 20px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1%;
+        padding-left: 15%;
+        padding-right: 15%;
+        line-height: 1.5rem;
     }
 
     .grid__container { 
