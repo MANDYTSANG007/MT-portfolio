@@ -1,6 +1,6 @@
 .header {
     margin: auto;
-    flex: 1 0 auto;
+    /* flex: 1 0 auto; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -8,15 +8,7 @@
     padding-bottom: 10rem;
     justify-content: center;
     text-align: center;
-}
-
-img {
-    width: 100%;
-    object-fit: cover;
-    -webkit-object-fit: cover;
-    -moz-object-fit: cover;
-    -o-object-fit: cover;
-    height: 100vh;
+    overflow-x: hidden;
 }
 
 .mandy {
@@ -25,7 +17,17 @@ img {
     background-position: center;
     background-attachment: local;
     z-index: -1;
-    position: relative;
+    text-align: left;
+    width: 120%;
+}
+
+img {
+    object-fit: cover;
+    -webkit-object-fit: cover;
+    -moz-object-fit: cover;
+    -o-object-fit: cover;
+    height: 100vh;
+    width: 90%;
 }
 
 .name {
@@ -36,19 +38,27 @@ img {
     z-index: 1;
     position: absolute; /* this line over-write .header properties*/
     width: 100%;
-    margin-top: -30%;
+    margin-top: -28%;
 }
 
 .header__message {
     background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 .message {
     margin-top: 1rem;
-    padding: 1%;
-    padding-right: 20%;
+    margin-bottom: 1rem;
     padding-left: 20%;
+    padding-right: 20%;
     line-height: 1.5rem;
+    /* width: 60%; */
+    /* margin-left: 20%; */
+    /* left: 50%; */
+    /* text-align: center; */
 }
 
 .message__title {
