@@ -37,14 +37,39 @@ input, textarea {
 
 /************ media queries (medium devices) ************/
 @media screen and (max-width: 1024px) {
+    .contact__section {
+        margin-top: -20%;
+        padding-bottom: 5rem;
+        position: absolute;
+    }
+
+    .contact__title {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+    .contact__container {
+        width: 80%;
+    }
+
     form {
-        margin-top: -50%;
+        margin-top: 20%;
     }
 }
 
-/************ media queries (medium devices) ************/
+/************ media queries (small devices) ************/
 @media screen and (max-width: 600px) {
+    .contact__section {
+        padding-bottom: 5rem;
+    }
+
+    .contact__container {
+        width: 80%;
+    }
+
     form {
-        margin-top: -100%;
+        margin-top: 20%;
     }
 }
