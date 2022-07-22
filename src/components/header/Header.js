@@ -17,54 +17,58 @@ import "./header.css";
 
 const Header = () => {
     return (
-        <header>
-            <article>
+        <header className="header">
+            <div>
                 <div className="mandy">
                     <img src={mandy} alt="Mandy was doing horse riding" />
                 </div>
-                <div className="content">
-                <div className="header__content">
-                    <h1 className="name">Mandy Tsang</h1>
-                    <div className="header__message">
-                        <br></br>
-                        <h3 className="message"> Hi! </h3>
-                        <h4 className="message">Hello and welcome to my website! I hope you'll take some time to look around and 
+                <h1 className="name">Mandy Tsang</h1>
+                <div className="header__message">
+                    <br></br>
+                    <div className="message">
+                        <h3 className="message__title"> Hi! </h3>
+                        <h4>Hello and welcome to my website! I hope you'll take some time to look around and
                             enjoy the projects that I've been working on. Thanks for stopping by.
                         </h4>
-                        
                         <br></br>
-                        <br></br>
-                        <hr className="dividers"></hr>
-                        <br></br>
-                        <h3 className="message">About Me</h3>
-                        <h4 className="message"> I love to build things with my computer. For the last several years, I've had the privilege
+                    </div>
+
+                    <hr className="dividers"></hr>
+                    {/* <br></br> */}
+
+                    <div className="message">
+                        <h3 className="message__title">About Me</h3>
+                        <h4> I love to build things with my computer. For the last several years, I've had the privilege
                             of workign at the highly-regulated financial industry. My main focus these days is
-                            building accessible and user-friendly products. 
+                            building accessible and user-friendly products.
                         </h4>
-                        <br></br>
-                        <hr className="dividers"></hr>
-                        <br></br>
-                        <h3 className="message">Technologies</h3>
-                        <h4 className="message"> I've always eager to learn more in new technologies. 
+                        {/* <br></br> */}
+                    </div>
+
+                    <hr className="dividers"></hr>
+                    {/* <br></br> */}
+
+                    <div className="message">
+                        <h3 className="message__title">Technologies</h3>
+                        <h4> I've always eager to learn more in new technologies.
                             Here are some technologies I've worked with: </h4>
-                        <div className="grid__container">
-                            <img className="header__icon" src={react} alt="icon"></img>
-                            <img className="header__icon" src={css} alt="icon"></img>
-                            <img className="header__icon" src={html} alt="icon"></img>
-                            <img className="header__icon" src={mongodb} alt="icon"></img>
-                            <img className="header__icon" src={jquery} alt="icon"></img>
-                            <img className="header__icon" src={bootstrap} alt="icon"></img>
-                            <img className="header__icon" src={node} alt="icon"></img>
-                            <img className="header__icon" src={js} alt="icon"></img>
-                            <img className="header__icon" src={handlebars} alt="icon"></img>
-                            <img className="header__icon" src={express} alt="icon"></img>
-                            <img className="header__icon" src={mysql} alt="icon"></img>
-                            <img className="header__icon" src={github} alt="icon"></img>
-                        </div>
+                    </div>
+                    <div className="grid__container">
+                        <img className="header__icon" src={react} alt="icon"></img>
+                        <img className="header__icon" src={css} alt="icon"></img>
+                        <img className="header__icon" src={html} alt="icon"></img>
+                        <img className="header__icon" src={mongodb} alt="icon"></img>
+                        <img className="header__icon" src={jquery} alt="icon"></img>
+                        <img className="header__icon" src={bootstrap} alt="icon"></img>
+                        <img className="header__icon" src={node} alt="icon"></img>
+                        <img className="header__icon" src={js} alt="icon"></img>
+                        <img className="header__icon" src={handlebars} alt="icon"></img>
+                        <img className="header__icon" src={express} alt="icon"></img>
+                        <img className="header__icon" src={mysql} alt="icon"></img>
+                        <img className="header__icon" src={github} alt="icon"></img>
                     </div>
                 </div>
-                </div>
-                </article>
+            </div>
         </header>
     )
 }
