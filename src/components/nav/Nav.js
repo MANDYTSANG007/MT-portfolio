@@ -5,9 +5,9 @@ import "./nav.css";
 const Nav = () => {
     return (
         <nav className="nav">  
-            <Link to="/" className="navEl">Mandy Tsang</Link>
+            <Link to="/mt-portfolio" className="navEl">Mandy Tsang</Link>
             <ul>
-                <CustomLink className="navEl" to="/"> Home </CustomLink>
+                <CustomLink className="navEl" to="/mt-portfolio"> Home </CustomLink>
                 <CustomLink className="navEl" to="/portfolio"> Portfolio </CustomLink>
                 <CustomLink className="navEl" to="/contact"> Contact </CustomLink>
             </ul>

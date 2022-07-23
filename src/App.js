@@ -1,10 +1,7 @@
 import React from 'react';
-import './App.css';
 import Nav from "./components/nav/Nav";
-import Header from "./components/header/Header";
+import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
-import About from "./components/about/About";
-// import Portfolio2 from "./components/portfolio/Portfolio2";
 import Portfolio3 from "./components/portfolio/Portfolio3";
 import Contact from "./components/contact/Contact";
 
@@ -16,8 +13,7 @@ function App() {
       <Nav />
       <div className='container'>
         <Routes>
-            <Route path="/" element={<Header />} />
-            <Route path="/About" element={<About />} />
+            <Route path="/mt-portfolio" element={<Home />} />
             <Route path="/Portfolio" element={<Portfolio3 />} />
             <Route path="/Contact" element={<Contact />} />
         </Routes>
