@@ -99,8 +99,8 @@ const Portfolio = () => {
                                     <h3 className="project__title">{title}</h3>
                                     <div className="project__description">{description}</div>
                                     <div>
-                                        <a href={github} className="btn">GitHub</a>
-                                        <a href={demo} className="btn btn-primary">Demo</a>
+                                        <a href={github} target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
+                                        <a href={demo} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Demo</a>
                                     </div>
                                     {tools.map((tools, id) => (
                                         <div key={id}className="project__icon">
