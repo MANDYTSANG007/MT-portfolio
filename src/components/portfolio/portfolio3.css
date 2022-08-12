@@ -34,7 +34,12 @@
 }
 
 .project__icon {
-    margin-top: -0.5rem;
+    margin-top: -1rem;
+    padding: 0.1rem;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
 }
 
 .photo {
@@ -47,11 +52,12 @@
     background-color: var(--color-primary-variant);
     height: 300px;
     width: 30rem;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .header__icon {
-    display:inline-block ;
+    display:inline-block;
+    margin-bottom: -1rem;
 }
 
 /************ media queries (medium devices) ************/
@@ -71,10 +77,10 @@
         justify-content: center;
     }
 
-    .portfolio__container {
+    /* .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
-    }
+    } */
 
     .portfolio__content {
         width: 100%;
