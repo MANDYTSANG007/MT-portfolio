@@ -29,7 +29,7 @@ const data = [
         id: 1,
         image: project1,
         title: "Onion Man",
-        description: "A MERN stack app where users share their simple onion recipes with ingredients only.",
+        description: "A MERN stack app where users share their simple onion recipes. It is connected to the MongoDB Atlas cloud database and is equipped with Google Identity Services for user's authentication. ",
         github: "https://github.com/MANDYTSANG007/onion-man",
         demo: "https://onion-man.netlify.app",
         tools: [
