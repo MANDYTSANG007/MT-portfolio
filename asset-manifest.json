@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mt-portfolio/static/css/main.33a88669.css",
+    "main.css": "/mt-portfolio/static/css/main.84793011.css",
     "main.js": "/mt-portfolio/static/js/main.00bfc674.js",
     "static/media/perfect-cup.png": "/mt-portfolio/static/media/perfect-cup.668baaabb6470d2f0abd.png",
     "static/media/utahHorseRiding.jpg": "/mt-portfolio/static/media/utahHorseRiding.db816e9ab58a3ed7488f.jpg",
@@ -21,11 +21,11 @@
     "static/media/i-mysql2.png": "/mt-portfolio/static/media/i-mysql2.4676ad983d6bd3e9fac9.png",
     "static/media/i-js1.png": "/mt-portfolio/static/media/i-js1.266bd9fb2663dcc057b4.png",
     "index.html": "/mt-portfolio/index.html",
-    "main.33a88669.css.map": "/mt-portfolio/static/css/main.33a88669.css.map",
+    "main.84793011.css.map": "/mt-portfolio/static/css/main.84793011.css.map",
     "main.00bfc674.js.map": "/mt-portfolio/static/js/main.00bfc674.js.map"
   },
   "entrypoints": [
-    "static/css/main.33a88669.css",
+    "static/css/main.84793011.css",
     "static/js/main.00bfc674.js"
   ]
 }
