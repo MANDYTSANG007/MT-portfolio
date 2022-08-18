@@ -52,7 +52,7 @@
     background-color: var(--color-primary-variant);
     height: 300px;
     width: 30rem;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .header__icon {
