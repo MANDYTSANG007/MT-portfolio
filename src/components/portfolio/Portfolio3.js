@@ -25,17 +25,18 @@ import heroku from "../../assets/icon/i-heroku.png";
 import moment from "../../assets/icon/i-moment.png";
 
 const data = [
-    // {
-    //     id: 1,
-    //     image: project1,
-    //     title: "Onion Man",
-    //     description: "A MERN stack app where users share their simple onion recipes. It is connected to the MongoDB Atlas cloud database and is equipped with Google Identity Services for user's authentication. ",
-    //     github: "https://github.com/MANDYTSANG007/onion-man",
-    //     demo: "https://onion-man.netlify.app",
-    //     tools: [
-    //         mongodbatlas, express, react, node, mui, gis, netlify, heroku
-    //     ],
-    // },
+    {
+        id: 1,
+        image: project1,
+        title: "Onion Man",
+        description: "A MERN stack app where users share their simple onion recipes. It is connected to the MongoDB Atlas cloud database and is equipped with Google Identity Services for user's authentication. ",
+        github: "https://github.com/MANDYTSANG007/onion-man",
+        demo: "https://github.com/MANDYTSANG007/onion-man",
+        // demo: "https://onion-man.netlify.app",
+        tools: [
+            mongodbatlas, express, react, node, mui, gis, netlify, heroku
+        ],
+    },
     {
         id: 2,
         image: project2,
@@ -47,28 +48,30 @@ const data = [
             react, node, bootstrap, js
         ],
     },
-    // {
-    //     id: 3,
-    //     image: project3,
-    //     title: "Perfect Cup - A Coffee App.",
-    //     description: "A coffee shop application that promotes ingredient transparency. This app. provides an informative platform for coffee lovers to create their Perfect Cup.",
-    //     github: "https://github.com/MChambersIV/Perfect-Cup",
-    //     demo: "https://powerful-wildwood-54385.herokuapp.com/",
-    //     tools: [
-    //         express, mysql, dotenv, sequelize
-    //     ],
-    // },
-    // {
-    //     id: 4,
-    //     image: project4,
-    //     title: "TechTalk - A Developer Tech Blog",
-    //     description: "TechTalk is built using Model-View-Controller(MVC), a software architectual framework, and an Object-relational mapping(ORM) programming technique. Developers can publish their blog posts in this platform.",
-    //     github: "https://github.com/MANDYTSANG007/Developers-Tech-Blog",
-    //     demo: "https://mandyblogapp.herokuapp.com/",
-    //     tools: [
-    //         express, handlebars, heroku, sequelize
-    //     ],
-    // },
+    {
+        id: 3,
+        image: project3,
+        title: "Perfect Cup - A Coffee App.",
+        description: "A coffee shop application that promotes ingredient transparency. This app. provides an informative platform for coffee lovers to create their Perfect Cup.",
+        github: "https://github.com/MChambersIV/Perfect-Cup",
+        demo: "https://github.com/MChambersIV/Perfect-Cup",
+        // demo: "https://powerful-wildwood-54385.herokuapp.com/",
+        tools: [
+            express, mysql, dotenv, sequelize
+        ],
+    },
+    {
+        id: 4,
+        image: project4,
+        title: "TechTalk - A Developer Tech Blog",
+        description: "TechTalk is built using Model-View-Controller(MVC), a software architectual framework, and an Object-relational mapping(ORM) programming technique. Developers can publish their blog posts in this platform.",
+        github: "https://github.com/MANDYTSANG007/Developers-Tech-Blog",
+        demo: "https://github.com/MANDYTSANG007/Developers-Tech-Blog",
+        // demo: "https://mandyblogapp.herokuapp.com/",
+        tools: [
+            express, handlebars, heroku, sequelize
+        ],
+    },
     {
         id: 5,
         image: project5,
